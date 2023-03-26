@@ -1,3 +1,40 @@
+# TASK2: Serve SPA in AWS
+
+## NOTE:
+In this PR provided links only to S3 bucket recourses and they are not denied (with public access).
+For some reason I can't create the CloudFront distribution due to problems with AWS account. 
+I have notified the course coordinators about this (Sergey Kovalchuk, Ivan Drobysh). 
+We agreed on creating only S3 links until I get ability to create CloudFront distribution.
+
+
+## Manually created resources
+
+### S3 bucket:
+
+http://faichuk-shop-react-app.s3-website-eu-west-1.amazonaws.com/
+
+## Resources created by the `serverless` framework
+
+### S3 bucket:
+
+http://faichuk-shop-react-app-automated.s3-website-eu-west-1.amazonaws.com/
+
+## Resources created by the `aws-cdk`
+
+### S3 bucket:
+
+http://faichuk-shop-react-app-automated-cdk.s3-website-eu-west-1.amazonaws.com/
+
+
+
+
+
+
+
+
+
+
+
 # React-shop-cloudfront
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
