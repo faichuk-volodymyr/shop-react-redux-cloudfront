@@ -17,7 +17,7 @@ export default function Products() {
 
   return (
     <>
-      <h1>Shop App: Deployed automated - AWS CDK</h1>
+      <h1>Shop App</h1>
       <Grid container spacing={4}>
         {/* eslint-disable-next-line @typescript-eslint/no-unused-vars */}
         {data.map(({ count, ...product }, index) => (

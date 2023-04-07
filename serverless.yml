@@ -54,6 +54,7 @@ resources:
             - Sid: PublicRead
               Effect: Allow
               Action: s3:GetObject
+              Principal: "*"
               Resource: arn:aws:s3:::${self:custom.s3BucketName}/*
 
   ## In order to print out the hosted domain via `serverless info` we need to define the DomainName output for CloudFormation
